@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    
+}
+header{
+    display: flex;
+    height: 50px;
+    background-color: white;
+}
+header h1{
+    margin: 5px 0 5px 25px;
+}
+header a{
+    text-decoration: none;
+    color: gray;
+    margin: 15px;
+    float: left;
+}
+.links{
+    margin-left: 830px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 73%;
+    margin-left: 2%;
+}
+.aside-up{
+    height: 250px;
+    width: 100%;
+}
+.aside-top{
+    display: flex;
+    height: 250px;
+    width: 100%;
+}
+.left,.midle,.footer-right{
+    width: 50%;
+    height: 250px;
+}.left h1,.midle h1,.footer-right h1{
+    font-size: 65px;
+}
+
+.right{
+    width: 50%;
+    height: 250px;
+}
+.right p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.right button{
+    margin-top: 40px;
+    width: 150px;
+    height: 40px;
+    background-color: rgba(194, 37, 37, 0.863);
+    color: white;
+    border-style: none;
+}
+
+section{
+    height: 460px;
+    width: 22%;
+    margin-left: 2%;
+    margin-right: 1;
+    background-color: rgb(3, 3, 46);
+    color: white;
+}
+section h1{
+    color: rgb(243, 179, 3);
+    margin: 15px 0 25px 15px;
+}
+
+h3{
+    margin: 15px 0 25px 15px;
+}
+section p{
+    margin: 15px;
+    color: gray;
+}
+section hr{
+    width: 255px;
+    margin-left: 15px;
+    height: 1px;
+    border-style: none;
+    background-color: gray;
+}
+footer{
+    display: flex;
+    height: 100px;
+    margin: 0 1% 0 2%;
+}
+footer .left,.midle,.footer-right{
+    display: flex;
+}
+
+.left-pic,.midle-pic,.footer-right-pic{
+    width: 80px;
+    height: 80px;
+}
+.left-pic img,.midle-pic img,.footer-right-pic img{
+    margin: 10px;
+}
+.left-text,.midle-text,.footer-right-text{
+    width: 250px;
+}
+.left-text h1,.midle-text h1,.footer-right-text h1{
+    font-size: 25px;
+    color: gray;
+    margin: 10px 0 0 25px;
+}
+.left-text h3,.midle-text h3,.footer-right-text h3{
+    font-size: 15px;
+    margin: 3px 0 0 25px;
+}
+.left-text p,.midle-text p, .footer-right-text p{
+    margin-left: 25px;
+}
